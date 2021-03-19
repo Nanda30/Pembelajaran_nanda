@@ -1,0 +1,109 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caffe Thebro</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+</head>
+<body>
+
+  <nav class="navbar has-shadow is-white">
+      <!--logo / brand-->
+    <div class="navbar-brand">
+        <a class="navbar-item">
+            <img src="images/logo1.jpg" alt="site logo" style="max-height: 70px;" class="py-2 px-2">
+        </a>
+        <a class="navbar-burger" id="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+    </div>
+
+    <div class="navbar-menu" id="nav-links">
+        <div class="navbar-end">
+            <a class="navbar-item">My Account</a>
+            <a class="navbar-item">Shoping cart (0)</a>
+        </div>
+    </div>
+  </nav>
+
+  <!-- breadcrumbs -->
+  <div class="section pt-4 pb-0">
+    <nav class="breadcrumb has-bullet-separator">
+        <ul class="container">
+          <li><a>Coffee In</a></li>
+          <li><a>Shop</a></li>
+          <li class="is-active"><a>Dark Roast Coffee</a></li>
+        </ul>
+      </nav>
+  </div>
+
+  <!-- Product info -->
+  <section class="section">
+      <div class="container">
+          <div class="columns is-vcentered is-multiline">
+              <div class="column is-6-tablet is-3-desktop">
+                  <h1 class="is-size-3-mobile is-size-1-desktop title">Dark</h1>
+                  <h2 class="is-size-3-mobile is-size-2-desktop subtitle">Roast Coffee</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Et, sint! Aliquid adipisci sint ducimus at commodi tenetur,
+                    error deleniti rem in neque officiis illum nostrum? Unde soluta doloremque quia
+                    quos?</p>
+              </div>
+              <div class="column is-6-tablet is-5-desktop has-text-centered">
+             <img src="images/Kemasant.jpg" alt="kemasan" class="px-6">
+              </div>
+              <div class="column is-12-tablet is-4-desktop">
+              <div class="is-size-4 mb-4">25.000K</div>
+              <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, nisi.</p>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <section class="section">
+      <div class="container">
+          <div class="columns is-8 is-variable">
+              <div class="column is-7-tablet">
+                <!-- tab content -->
+                <div class="tabs is-boxed">
+                    <ul>
+                        <li class="is-active" data-target="product-details">
+                            <a>Product Details</a>
+                        </li>
+                        <li data-target="delivery-informasi">
+                            <a>Delivery Informasi</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="px-2" id="tab-content">
+                    <div id="product-details">
+                        <h3 class="is-size-5 title">Product Details</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Molestias, rerum corporis! Facilis sapiente dolore enim, recusandae 
+                         obcaecati iure sed libero quaerat at ea rerum nobis vitae natus inventore quis ullam.</p>
+                    </div>
+                    <div id="delivery-informasi" class="is-hidden">
+                        <h3 class="is-size-5 title">Delivery Informasi</h3>
+                        <p class="has-text-danger">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Molestias, rerum corporis! Facilis sapiente dolore enim, recusandae 
+                         obcaecati iure sed libero quaerat at ea rerum nobis vitae natus inventore quis ullam.</p>
+                    </div>
+                </div>
+              </div>
+              <div class="column is-5-tablet">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus,
+                    iusto culpa magnam quasi accusantium pariatur debitis quidem expedita nihil iure velit nisi,
+                    repellendus officiis enim? Vitae omnis aut earum iusto!</p>
+              </div>
+          </div>
+      </div>
+  </section>
+
+
+
+ <script src="index.js"></script>
+</body>
+</html>
